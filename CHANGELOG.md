@@ -1,5 +1,32 @@
 # Changelog
 
+## [1.4.0](https://github.com/catppuccin/nvim/compare/v1.3.0...v1.4.0) (2023-08-10)
+
+
+### Features
+
+* add ability to enable/disable all integrations by default ([#552](https://github.com/catppuccin/nvim/issues/552)) ([737f60a](https://github.com/catppuccin/nvim/commit/737f60a3a25c79d9bb9574092f6c6c958a3d747a))
+* add flash.nvim integration ([#550](https://github.com/catppuccin/nvim/issues/550)) ([381eddd](https://github.com/catppuccin/nvim/commit/381edddc4ad12126cfa7276818bca07c3d5606ed))
+* **flash:** enable by default ([#551](https://github.com/catppuccin/nvim/issues/551)) ([a84ee18](https://github.com/catppuccin/nvim/commit/a84ee1848bfac4601771805396552bdbaa0a0e91))
+* **lspsaga:** support v0.3 ([#543](https://github.com/catppuccin/nvim/issues/543)) ([3ffd2f5](https://github.com/catppuccin/nvim/commit/3ffd2f511f3dc6c01258923d7170ccaf1445634b))
+* **lspsaga:** upstream new hl groups ([#544](https://github.com/catppuccin/nvim/issues/544)) ([e0dd3f9](https://github.com/catppuccin/nvim/commit/e0dd3f9bb1513c98ab4ef9404ea26e18babf858a))
+* **neogit:** update highlights ([#545](https://github.com/catppuccin/nvim/issues/545)) ([#549](https://github.com/catppuccin/nvim/issues/549)) ([371430f](https://github.com/catppuccin/nvim/commit/371430f32f2637d2dd5796399b3982d4cada61d8))
+* **telescope:** make nvchad style great again ([#538](https://github.com/catppuccin/nvim/issues/538)) ([51961da](https://github.com/catppuccin/nvim/commit/51961da41e8189ca6f9ed73f37dfa83087b4e65c))
+
+
+### Bug Fixes
+
+* don't highlight fg of `PmenuSel` ([#554](https://github.com/catppuccin/nvim/issues/554)) ([6425df1](https://github.com/catppuccin/nvim/commit/6425df128d46f2db2cccf9aa7a66ca2823c1d153))
+* highlight NonText characters ([#547](https://github.com/catppuccin/nvim/issues/547)) ([bfe91df](https://github.com/catppuccin/nvim/commit/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4))
+* **integration_default:** hotfix for [#559](https://github.com/catppuccin/nvim/issues/559) ([4913a8b](https://github.com/catppuccin/nvim/commit/4913a8b47554a89a71ed44da39fc1f6e5c2841c3))
+* **integration_default:** override `enabled` key only if integration has one ([#559](https://github.com/catppuccin/nvim/issues/559)) ([9709f82](https://github.com/catppuccin/nvim/commit/9709f8251a40e874238d6f9436cf4fba654b60e1))
+* **noice:** set background blend to 0 for mini popups ([#556](https://github.com/catppuccin/nvim/issues/556)) ([2d50a4e](https://github.com/catppuccin/nvim/commit/2d50a4e3aecffea4144801bb3c0a3cf7b88fdd6b))
+* **options:** disable deprecated ts_rainbow and ts_rainbow2 by default ([096385d](https://github.com/catppuccin/nvim/commit/096385dd024ecd1332659916fd7f09d7d18d7374))
+* **telescope:** keep consistency between the two styles ([#540](https://github.com/catppuccin/nvim/issues/540)) ([dfbc8e2](https://github.com/catppuccin/nvim/commit/dfbc8e2b478a65104d34556698067f2d40f1c227))
+* **telescope:** respect transparency ([#542](https://github.com/catppuccin/nvim/issues/542)) ([f36af06](https://github.com/catppuccin/nvim/commit/f36af062e3242f333b12fe9b730053fdda36e000))
+* **treesitter:** avoid possible nil ([17ae783](https://github.com/catppuccin/nvim/commit/17ae783b88bb7ae73dc004370473138d9d43ee46))
+* **types:** make all options besides nested `enabled` optional ([#565](https://github.com/catppuccin/nvim/issues/565)) ([490078b](https://github.com/catppuccin/nvim/commit/490078b1593c6609e6a50ad5001e7902ea601824))
+
 ## [1.3.0](https://github.com/catppuccin/nvim/compare/v1.2.0...v1.3.0) (2023-07-10)
 
 
