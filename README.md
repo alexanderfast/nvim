@@ -482,7 +482,7 @@ Update your Feline config to use the Catppuccin components:
 ```lua
 local ctp_feline = require('catppuccin.groups.integrations.feline')
 
-ctp_feline.setup()
+ctp_feline.setup({})
 
 require("feline").setup({
     components = ctp_feline.get(),
